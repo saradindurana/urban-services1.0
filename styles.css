@@ -1,6 +1,7 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 *{
     margin: 0;
@@ -359,4 +360,17 @@ section .title::after{
 #line2{
     font-size: 25px;
     padding-left: 200px;
+}
+.about{
+    color: crimson;
+    padding-bottom: -50px;
+}
+.about .about-text{
+    padding: 0px 20px;
+    text-align: justify;
+    font-family: 'Shadows Into Light', cursive;
+    color:blue;
+}
+.our team .img{
+    float: left;
 }
